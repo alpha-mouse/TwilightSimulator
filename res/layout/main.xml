@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TableLayout
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+    android:stretchColumns="0,1,2,3,4,5,6"
+    >
+    <TableRow>
+        <Button android:text="-" android:id="@+id/SLM"/>
+        <TextView android:text="0" android:id="@+id/SL" android:gravity="center"/>
+        <Button android:text="+" android:id="@+id/SLP"/>
+        <TextView android:text="Sun" android:gravity="center"/>
+        <Button android:text="-" android:id="@+id/SRM"/>
+        <TextView android:text="0" android:id="@+id/SR" android:gravity="center"/>
+        <Button android:text="+" android:id="@+id/SRP"/>
+    </TableRow>
+    <TableRow>
+        <Button android:text="-" android:id="@+id/DLM"/>
+        <TextView android:text="0" android:id="@+id/DL" android:gravity="center"/>
+        <Button android:text="+" android:id="@+id/DLP"/>
+        <TextView android:text="Dread" android:gravity="center"/>
+        <Button android:text="-" android:id="@+id/DRM"/>
+        <TextView android:text="0" android:id="@+id/DR" android:gravity="center"/>
+        <Button android:text="+" android:id="@+id/DRP"/>
+    </TableRow>
+    <TableRow>
+        <Button android:text="-" android:id="@+id/CLM"/>
+        <TextView android:text="0" android:id="@+id/CL" android:gravity="center"/>
+        <Button android:text="+" android:id="@+id/CLP"/>
+        <TextView android:text="Cruiser" android:gravity="center"/>
+        <Button android:text="-" android:id="@+id/CRM"/>
+        <TextView android:text="0" android:id="@+id/CR" android:gravity="center"/>
+        <Button android:text="+" android:id="@+id/CRP"/>
+    </TableRow>
+    <TableRow>
+        <Button android:text="-" android:id="@+id/DsLM"/>
+        <TextView android:text="0" android:id="@+id/DsL" android:gravity="center"/>
+        <Button android:text="+" android:id="@+id/DsLP"/>
+        <TextView android:text="Destroyer" android:gravity="center"/>
+        <Button android:text="-" android:id="@+id/DsRM"/>
+        <TextView android:text="0" android:id="@+id/DsR" android:gravity="center"/>
+        <Button android:text="+" android:id="@+id/DsRP"/>
+    </TableRow>
+    <TableRow>
+        <Button android:text="-" android:id="@+id/CaLM"/>
+        <TextView android:text="0" android:id="@+id/CaL" android:gravity="center"/>
+        <Button android:text="+" android:id="@+id/CaLP"/>
+        <TextView android:text="Carrier" android:gravity="center"/>
+        <Button android:text="-" android:id="@+id/CaRM"/>
+        <TextView android:text="0" android:id="@+id/CaR" android:gravity="center"/>
+        <Button android:text="+" android:id="@+id/CaRP"/>
+    </TableRow>
+    <TableRow>
+        <Button android:text="-" android:id="@+id/FLM"/>
+        <TextView android:text="0" android:id="@+id/FL" android:gravity="center"/>
+        <Button android:text="+" android:id="@+id/FLP"/>
+        <TextView android:text="Fighter" android:gravity="center"/>
+        <Button android:text="-" android:id="@+id/FRM"/>
+        <TextView android:text="0" android:id="@+id/FR" android:gravity="center"/>
+        <Button android:text="+" android:id="@+id/FRP"/>
+    </TableRow>
+    <TableRow>
+        <Button android:text="-" android:id="@+id/PLM"/>
+        <TextView android:text="0" android:id="@+id/PL" android:gravity="center"/>
+        <Button android:text="+" android:id="@+id/PLP"/>
+        <TextView android:text="PDS" android:gravity="center"/>
+        <Button android:text="-" android:id="@+id/PRM"/>
+        <TextView android:text="0" android:id="@+id/PR" android:gravity="center"/>
+        <Button android:text="+" android:id="@+id/PRP"/>
+    </TableRow>
+    <TableRow android:visibility="gone">
+        <Button android:text="-" android:id="@+id/GLM"/>
+        <TextView android:text="0" android:id="@+id/GL" android:gravity="center"/>
+        <Button android:text="+" android:id="@+id/GLP"/>
+        <TextView android:text="Ground" android:gravity="center"/>
+        <Button android:text="-" android:id="@+id/GRM"/>
+        <TextView android:text="0" android:id="@+id/GR" android:gravity="center"/>
+        <Button android:text="+" android:id="@+id/GRP"/>
+    </TableRow>
+
+    <TableRow>
+        <Button android:text="Clear" android:id="@+id/clear" android:layout_span="2"/>
+        <Button android:text="Run" android:id="@+id/run" android:layout_span="3"/>
+        <Button android:text="Bonuses" android:id="@+id/bonuses" android:layout_span="2"/>
+    </TableRow>
+    <TextView android:id="@+id/result"/>
+
+    </TableLayout>
+</LinearLayout>
+
